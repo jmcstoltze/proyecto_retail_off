@@ -1,0 +1,40 @@
+
+<ion-menu contentId="main-content">
+  <ion-header>
+    <ion-toolbar color="primary">
+      <ion-title>Opciones de Usuario</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content>
+    <ion-list>
+      <ion-item>
+        <ion-icon name="information-circle"></ion-icon>
+        Información
+      </ion-item>
+
+      <ion-item>
+        <ion-icon name="star"></ion-icon>
+        Favoritos
+      </ion-item>
+
+      <ion-item>
+        <ion-icon name="send"></ion-icon>
+        Envíos
+      </ion-item>
+
+      <ion-item href="/login/usuario" button="true">
+        <ion-icon name="person"></ion-icon>
+        Cuenta
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-menu>
+<div id="main-content">
+  <ion-header>
+    <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-menu-button></ion-menu-button>
+      </ion-buttons>
+    </ion-toolbar>
+  </ion-header>
+</div>
